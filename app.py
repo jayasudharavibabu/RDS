@@ -3,7 +3,7 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 
 
-app.config['MYSQL_HOST'] = 'database-teja.caomyyms75ok.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_HOST'] = 'database-niro.cshux5aaxeaw.us-east-1.rds.amazonaws.com'
 app.config['MYSQL_USER'] = 'niro'
 app.config['MYSQL_PASSWORD'] = 'niro321'
 app.config['MYSQL_DB'] = 'mydb'
